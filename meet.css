@@ -1,0 +1,253 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: rgb(0,127,102);
+}
+/*google meet icon*/
+.gmi{
+	margin-top: 5px;
+}
+.gmi img{
+	border-radius: 50%;
+}
+/*video*/
+.dv iframe{
+	width: 650px;
+	height: 400px;
+	border-radius: 2px;
+	margin-top: -2px;
+	margin-left: 15px;
+	border-radius: 20px;
+}
+/*small div*/
+.A{
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	margin-top: -450px;
+	margin-left: 690px;
+}
+.B{
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	margin-top: 60px;
+	margin-left: 690px;
+}
+.C{
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	margin-top: 60px;
+	margin-left: 690px;
+}
+.D{
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	margin-top: -480px;
+	margin-left: 890px;
+}
+.E{
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	margin-top: 60px;
+	margin-left: 890px;
+}
+.F{
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	margin-top: 60px;
+	margin-left: 890px;
+}
+img{
+	width: 120px;
+	height: 90px;
+	border-radius: 10px;
+}
+input{
+	width: 116px;
+	height: 20px;
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+/*icon*/
+.mic{
+	margin-left:-640px;
+	margin-top: 50px;
+}
+.mic img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.screen{
+	margin-left:-570px;
+	margin-top: -50px;
+}
+.screen img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.call{
+	margin-left:-300px;
+	margin-top: -40px;
+}
+.call img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.cam{
+	margin-left:-500px;
+	margin-top: -48px;
+}
+.cam img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.ccc{
+	margin-left:-420px;
+	margin-top: -40px;
+}
+.ccc img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.dot{
+	margin-left: -360px;
+	margin-top: -45px;
+}
+.dot img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+/*icon2*/
+.icon{
+	margin-left: 180px;
+	margin-top: -40px;
+}
+.icon img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.hic{
+	margin-left: 250px;
+	margin-top: -45px;
+}
+.hic img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.msg{
+	margin-left: 310px;
+	margin-top: -40px;
+}
+.msg img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.tri{
+	margin-left: 380px;
+	margin-top: -45px;
+}
+.tri img{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+/*chatbox*/
+.chatbox{
+	width: 330px;
+	height: 550px;
+	background-color: ghostwhite;
+	border-radius: 10px;
+	margin-left: 125px;
+	margin-top: -630px;
+	box-shadow: 0 3px #ccc;
+}
+.chatlogs{
+	padding: 10px;
+	width: 93.6%;
+	height: 500px;
+	background-image: url(https://wallpapercave.com/wp/wp3998752.jpg);
+	border-radius: 10px;
+	overflow: auto;
+}
+.chat{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+.chat .user-photo{
+	width: 60px;
+	height: 60px;
+	background-color: #ccc;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.chat .user-photo img{
+	width: 100%;
+}
+.chat .chat-message{
+	width: 60%;
+	padding: 15px;
+	margin: 5px 10px 0;
+	background-color: #1ddced;
+	border-radius: 10px;
+	color: ghostwhite;
+	font-size: 18px;
+}
+.friend .chat-message{
+	background-color: #1adda4;
+}
+.self .chat-message{
+	background-color: #1ddced;
+	order: -1;
+}
+.chat-form{
+	margin-top: 20px;
+	display: flex;
+	align-items: flex-start;
+}
+/*type text & send*/
+.chat-form input{
+	background-color: #fbfbfb;
+	width: 85%;
+	height: 25px;
+	border: 2px solid #eee;
+	border-radius: 3px;
+	font-size: 18px;
+	color: #999;
+	text-align: left;
+	margin-top: -20px;
+}
+.chat-form input:focus{
+	background-color: #fff;
+}
+.chat-form button{
+	background-color: #1ddced;
+	padding: 5px 10px;
+	color: ghostwhite;
+	margin: 0 10px;
+	margin-top: -18px;
+	border-radius: 5px;
+	box-shadow: 0 2px whitesmoke;
+	cursor: pointer;
+}
+.chat-form button:hover{
+	background-color: #13c8d9;
+}
